@@ -29,7 +29,7 @@ const Home = () => {
                 style={{ maxWidth: '100px', maxHeight: '150px' }}
               />
               <h2>{book.volumeInfo.title}</h2>
-              <p>Authors: {book.volumeInfo.authors.join(', ')}</p>
+              <p>Authors: {book.volumeInfo.authors}</p>
             </Link>
           </div>
         ))}

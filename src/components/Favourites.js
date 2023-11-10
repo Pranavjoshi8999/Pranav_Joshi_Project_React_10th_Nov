@@ -28,7 +28,7 @@ const Favourites = () => {
                   style={{ maxWidth: '100px', maxHeight: '150px' }}
                 />
                 <h3>{book.volumeInfo.title}</h3>
-                <p>Authors: {book.volumeInfo.authors.join(', ')}</p>
+                <p>Authors: {book.volumeInfo.authors}</p>
               </Link>
               <button onClick={() => handleRemoveFromFavourites(book.id)}>
                 Remove from Favourites
